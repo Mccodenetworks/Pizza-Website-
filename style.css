@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    margin: auto 10%;
+}
+
+.nav-link{
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: rgb(255, 255, 255); 
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0;
+    display: inline-block;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: poppins;
+    transition: .3s;
+}
+
+a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 65px;
+}
+
+.home{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.order-caption{
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.order-caption h3{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: poppins;   
+}
+
+.order-btn{
+    padding: 10px 60px;
+    background: orange;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+
+.order-btn:hover{
+    background: rgb(240, 158, 5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.60);
+    position: fixed;
+    display: none;
+}
+
+.sign{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    text-align: center;
+    padding: 10px 10px;
+    padding-top: 30px;
+}
+
+.cancel{
+    width: 40px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transition: .3s;
+    padding: 5px 5px;
+    background: white;
+    border-radius: 10px;
+}
+
+.cancel:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+.orderForm{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.60);
+    position: fixed;
+    display: none; 
+}
+
+
+
+.input-value{
+     width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 20px 20px;
+    font-size: 16px;
+    color: gray;
+    border-radius: 5px;
+}
+
+.btn-sub{
+    padding: 10px 65px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    font-family: poppins;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.btn-sub:hover{
+    background: rgb(255, 187, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.orderFormBox{
+    width: 400px;
+    height: auto;background: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.orderFormBox h3{
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.menu{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(250, 192, 84); 
+    display: block;
+}
+
+.ourmenu{
+    font-size: 30px;
+    font-family: poppins;
+    color: black;
+    padding: 10px 60px;
+    background: rgb(250, 192, 84);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 250px;
+    height: 260px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.card img{
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.card h5{
+    color: black;
+    font-family: poppins;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.price-btn{
+    padding: 10px 50px;
+    color: black;
+    font-size: 18px;
+    font-family: poppins;
+    background: orange;
+    text-align: center;
+    border: none;
+    justify-content: center;
+     margin-top: 10px;
+    display: block;
+    width: 100%;
+    transition: .3s;
+}
+
+.price-btn:hover{
+    background: rgb(255, 187, 0);
+    color: white;
+    cursor: pointer;
+
+}
+
+.contact{
+    width: 100%;
+    height: 50vh;
+    background: #ebebeb;
+    margin-bottom: 10px;
+    background: rgb(250, 192, 84);
+}
+
+.contact h3{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    background: rgb(250, 192, 84);
+    cursor: pointer;
+
+}
+
+.mail{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: rgb(248, 248, 248);
+    color: black;
+    font-size: 18px;
+    font-family: poppins;
+    border-radius: 20px;
+  margin-left: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #ebebeb;
+    padding-top: 10px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.icons{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.icons a{
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+
+
+
+@media (max-width:320px){
+  .order-caption h3{
+        font-size: 20px;
+    }
+
+}
